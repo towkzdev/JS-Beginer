@@ -97,4 +97,95 @@ let STN_3 = 99.98.toString()
 console.log(typeof(STN_2),(STN_2))
 console.log(typeof(STN_3),(STN_3))
 
+/* -----------EP8-Array------------- */
+let ep_8 ="--------------EP8---------------"
+console.log(ep_8)
 
+//วิธีการสร้าง Array
+//วิธีที่ 1
+
+let number1 = Array(100,200,300,400,500,600);
+let number2 = Array("100","200","300","400","500","600");
+
+//index เริ่มต้นที่เลข 0 หมายถึงสมาขิกตัวแรก
+console.log(number1)
+console.log(number1[0])
+console.log(number1[4])
+
+//วิธีที่ 2
+let colors = ["แดง","เขียว","ชมพู","ขาว"]
+
+colors[1]="เหลือง"
+
+console.log(colors)
+
+let days = ["วันอาทิตย์","วันจันทร์","วันอังคาร"]
+
+console.log(days)
+
+/* -----------EP9-Operators-math------------ */
+let ep_9 ="--------------EP9---------------"
+console.log(ep_9)
+
+let a=20,b=4
+
+console.log("ผลบวก = ",10+5)
+console.log("ผลลบ = ",20-4)
+console.log("ผลคูณ = ",5*2)
+console.log("ผลหาร = ",a/b)
+console.log("หารเอาเศษ = ",22%4)
+console.log("ยกกำลัง = ",2**2)
+
+/* -----------EP10-Operators-boolean------------ */
+let ep_10 ="--------------EP10---------------"
+console.log(ep_10)
+
+let c=5,d=10
+let check=true
+
+console.log("เท่ากัน",a == b)
+console.log("ไม่เท่ากัน",a != b)
+console.log("มากกว่า",a > b)
+console.log("น้อยกว่า",a < b)
+console.log("มากกว่าหรือเท่ากับ",a >= b)
+console.log("น้อยว่าหรือเท่ากับ",a <= b)
+
+console.log(!check)
+
+/* -----------EP11-Operators-logic------------ */
+let ep_11 ="--------------EP11---------------"
+console.log(ep_11)
+
+//ตัดเกรด
+//and => และ
+
+//ชื้อมะ่วงและเงาะหรือไม่? =>กลับบ้านได้หรือไม่
+
+//a=ชื้อมะม่วงหรือเปล่า and b=ซื้อเงาะหรือเปล่า
+
+//a=true && b = false => a && b = true (กลับบ้าน)
+
+
+//or => หรือ
+
+//ชื้อมะ่วงหรือเงาะหรือไม่? =>กลับบ้านได้หรือไม่
+//a=ชื้อมะม่วงหรือเปล่า or b=ซื้อเงาะหรือเปล่า
+
+/** --------------------------------------------- */
+
+/**
+    70-80 =>A
+    50-60 =>B
+    <49> =>F
+ */
+
+let score =80
+
+console.log(score >=70 && score<= 80,"A")
+console.log(score >=50 && score<= 60,"B")
+console.log(score <49,"F")
+
+console.log(score >=70 || score<= 80)
+
+//and(true)=> ซ้าย && ขวา เป็นจริงคู่
+//or(true)=> ซ้าย || ขวา เป็นจริง
