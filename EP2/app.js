@@ -189,3 +189,79 @@ console.log(score >=70 || score<= 80)
 
 //and(true)=> ซ้าย && ขวา เป็นจริงคู่
 //or(true)=> ซ้าย || ขวา เป็นจริง
+
+
+/* -----------EP12-Prefix-Postfix------------ */
+let ep_12 ="--------------EP12---------------"
+console.log(ep_12)
+
+/**
+    ++(prefix)  ++a     เพิ่มค่าก่อนเเล้วนำไปใช้
+    ++(postfix) a++     นำค่าปัจุบันไปใช้ก่อนเเล้วค่อยเพิ่มค่า
+    --(prefix)  --a     ลดค่าค่าก่อนเเล้วนำไปใช้
+    --(postfix) a--     นำค่าปัจุบันไปใช้ก่อนเเล้วค่อยลดค่า
+ */
+
+let ep12_1 = 5, ep12_2 = 10
+
+//การลดค่า
+//เพื่มค่าแบบ prefix
+console.log("ค่าเริ่มต้น = ",ep12_1)
+console.log("ค่าprefix = ",++ep12_1)
+console.log("ค่าปัจจุบัน = ",ep12_1)
+
+ep12_1 = 5 //reset
+//เพื่มค่าแบบ postfix
+console.log("ค่าค่าเริ่มต้น = ",ep12_1)
+console.log("ค่าprefix = ",ep12_1++)
+console.log("ค่าปัจจุบัน = ",ep12_1)
+
+//การลดค่า
+//ลดค่าแบบ prefix
+console.log("ค่าเริ่มต้น = ",ep12_1)
+console.log("ค่าprefix = ",--ep12_1)
+console.log("ค่าปัจจุบัน = ",ep12_1)
+
+ep12_1 = 5 //reset
+//ลดค่าแบบ postfix
+console.log("ค่าค่าเริ่มต้น = ",ep12_1)
+console.log("ค่าprefix = ",ep12_1--)
+console.log("ค่าปัจจุบัน = ",ep12_1)
+
+/* -----------EP13-Compound-Assignment------------ */
+let ep_13 ="--------------EP13---------------"
+console.log(ep_13)
+
+let num_a = 10 , num_b = 20
+
+console.log("ก่อน = ",num_a)
+num_a+=num_b
+console.log("+หลัง = ",num_a)
+
+console.log("ก่อน = ",num_a)
+num_a-=num_b
+console.log("-หลัง = ",num_a)
+
+console.log("ก่อน = ",num_a)
+num_a*=num_b
+console.log("*หลัง = ",num_a)
+
+num_a = 10//reset
+console.log("ก่อน = ",num_a)
+num_a/=num_b
+console.log("/หลัง = ",num_a)
+
+num_a = 10//reset
+console.log("ก่อน = ",num_a)
+num_a%=num_b
+console.log("/หลัง = ",num_a)
+
+/* -----------EP14-ลำดับความสำคัญของตัวดพเนินการ------------ */
+let ep_14 ="--------------EP14---------------"
+console.log(ep_14)
+
+console.log(5+8*9)
+console.log(10-4+2)
+console.log(10-(2+1))
+console.log(5*2-40/5)
+console.log(7+8/2+25)
