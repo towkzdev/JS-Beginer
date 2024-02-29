@@ -265,3 +265,65 @@ console.log(10-4+2)
 console.log(10-(2+1))
 console.log(5*2-40/5)
 console.log(7+8/2+25)
+
+/* -----------EP15-Control-Sructure------------ */
+let ep_15 ="--------------EP15---------------"
+console.log(ep_15)
+
+//if
+age = 50
+if(age >=15 || age<=25){
+    console.log("คำนำหน้าเป็นนาย นางสาว")
+}
+else{
+    console.log("อายุตำกว่า 15 ปี")
+}
+
+
+let balancre = 10000
+let withdraw = 100
+
+if(withdraw<=balancre){
+    console.log("ดำเนินการถอนเงิน = ",withdraw)
+    balancre-=withdraw
+    console.log("ยอดเงินคงเหลือ = ",balancre)
+}
+else{
+    console.log("ยอดเงินในบัญชีไม่พอ")
+}
+
+/* -----------EP16-If-Else------------ */
+let ep_16 ="--------------EP16---------------"
+console.log(ep_16)
+
+
+let balancre_2 = 10000
+let withdraw_2 = 100000
+
+if(withdraw_2<=balancre_2){
+    console.log("ดำเนินการถอนเงิน = ",withdraw_2)
+    balancre_2-=withdraw_2
+    console.log("ยอดเงินคงเหลือ = ",balancre_2)
+}
+else{
+    console.log("ยอดเงินในบัญชีไม่พอ")
+}
+
+/* -----------EP17-If-หลายเงื่อนเงื่อนไข------------ */
+let ep_17 ="--------------EP17---------------"
+console.log(ep_17)
+
+let score_ep17 = 70
+
+if(score_ep17>70){
+    console.log("เกรด A")
+}
+if(score_ep17>60){
+    console.log("เกรด B")
+}
+if(score_ep17>50){
+    console.log("เกรด C")
+}
+if(score_ep17>40){
+    console.log("เกรด D")
+}
