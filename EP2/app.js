@@ -327,3 +327,67 @@ if(score_ep17>50){
 if(score_ep17>40){
     console.log("เกรด D")
 }
+
+/* -----------EP18-Ternary Operator------------ */
+let ep_18 ="--------------EP18---------------"
+console.log(ep_18)
+
+let score_18 =40;
+let pass;
+/*
+if(score>50){
+    pass = "ผ่านเกณฑ์"
+}else{
+    pass = "ไม่ผ่านเกณฑ์"
+}
+*/
+
+pass = score_18>50 ? "ผ่านเกณฑ์" : "ไม่ผ่านเกณฑ์"
+console.log(pass);
+
+/* -----------EP19-การเขียนเงื่อนไขซ้อนกัน------------ */
+let ep_19 ="--------------EP19---------------"
+console.log(ep_19)
+
+let age_19 = 17
+
+if(age_19<=15){
+    if(age_19==15){
+        console.log("ม.3")
+    }else if(age_19==14){
+        console.log("ม.2")
+    }else if(age_19==13){
+        console.log("ม.1")
+    }
+}else{
+    console.log("ม.ปลาย")
+}
+
+/* -----------EP20-Switch..Case------------ */
+let ep_20 ="--------------EP20---------------"
+console.log(ep_20)
+
+let status_20 = 0;
+
+let light;
+
+/*if(status_20 == 0){
+    light="ปิดไฟ";
+}else if(status_20 == 1){
+    light="เปิดไฟ";
+}else{
+    light = "ไม่พบข้อมูล"
+}*/
+
+switch(status_20){
+    case 0 : light="ปิดไฟ"
+        break;
+    case 1 : light="เปิดไฟ"
+        break;
+}
+
+console.log(light)
+
+/* -----------EP21-โปรแกรมคำนวณเลขคู่ - เลขคี่------------ */
+let ep_21 ="--------------EP21---------------"
+console.log(ep_21)
