@@ -418,3 +418,47 @@ if(xx>yy){
 let ep_23 ="--------------EP23---------------"
 console.log(ep_23)
 
+let count = 1;
+while(count<=5){
+    console.log("ผลิตสินค้าในโรงงาน =",count);
+    if(count==4){
+        break;
+    }
+    count++;
+}
+
+/* -----------EP24-For Loop------------ */
+let ep_24 ="--------------EP24---------------"
+console.log(ep_24)
+
+for(let count = 1;count<=5;count+=2){
+    console.log(count);
+}
+
+/*
+count = 1,2,3,4,5,6
+
+1,2,3,4,5
+
+*/
+
+/* -----------EP25-Do..While------------ */
+let ep_25 ="--------------EP23---------------"
+console.log(ep_25)
+
+let count_25 = 0;
+
+do{                             //ทำก็ต่อเมื่อ while ทำก่อน
+    console.log(count)
+    count++;
+}while(count<=5);
+
+/**
+ * while(count>5){
+ * console.log(count);
+ * count++;
+ */
+
+/* -----------EP26-การใช้งาน Loop แต่ละแบบ------------ */
+let ep_26 ="--------------EP26---------------"
+console.log(ep_26)
