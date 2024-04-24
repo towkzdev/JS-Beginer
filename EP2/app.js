@@ -462,3 +462,41 @@ do{                             //ทำก็ต่อเมื่อ while ท
 /* -----------EP26-การใช้งาน Loop แต่ละแบบ------------ */
 let ep_26 ="--------------EP26---------------"
 console.log(ep_26)
+
+/* -----------EP27-Break & Continue------------ */
+let ep_27 ="--------------EP27---------------"
+console.log(ep_27)
+
+for(let count=1;count<=10;count++){
+    if(count==5)break;
+    console.log(count);
+}
+console.log("จบโปรแกรม_break");
+
+for(let count=1;count<=10;count++){
+    if(count==5)continue;
+    console.log(count);
+}
+console.log("จบโปรแกรม_continue");
+
+/* -----------EP28-Null , Undefined , NaN------------ */
+let ep_28 ="--------------EP28---------------"
+console.log(ep_28)
+
+//undifind
+let a_uni;
+console.log(a_uni)
+
+//null
+let a_null=null;
+if(a_null){
+    console.log("a is null");
+}else{
+    console.log("a not null");
+}
+
+//nan
+let a_nan=10*"ก";
+console.log(a_nan);
+
+
