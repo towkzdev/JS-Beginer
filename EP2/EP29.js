@@ -41,3 +41,45 @@ function summationNumber(x,y){
 }
 
 summationNumber(10,5);
+
+/* -----------EP31-ฟังก์ชั่น Return ค่า------------ */
+let ep_31 ="--------------EP31---------------"
+console.log(ep_31)
+
+function getComputerIP(){
+    return "127.0.0.1";
+}
+let myIp=getComputerIP();
+console.log("IP :",myIp);
+
+function getNumber(){
+    return 100*10;
+}
+console.log("Total :",getNumber());
+
+/* -----------EP32-ฟังก์ชั่นรับค่าและ Return ค่า------------ */
+let ep_32 ="--------------EP32---------------"
+console.log(ep_32)
+
+function setSalary(salary){
+    let bonus = 1000;
+    return salary + bonus;
+}
+
+let a_32 = setSalary(15000);
+a_32-=500;
+console.log("เงินเดือนรวม:",a_32);
+
+let b_32 = setSalary(20000);
+console.log("เงินเดือนรวม:",b_32);
+
+function sumNumber(x_32,y_32){
+    return x_32+y_32;
+}
+
+c_32 = sumNumber(10,5);
+console.log("ผลรวม",c_32);
+
+/* -----------EP33-ฟังก์ชั่นรับค่าและ Return ค่า------------ */
+let ep_33 ="--------------EP32---------------"
+console.log(ep_33)
