@@ -498,5 +498,3 @@ if(a_null){
 //nan
 let a_nan=10*"ก";
 console.log(a_nan);
-
-
