@@ -202,5 +202,54 @@ points.sort(function(a,b){
 
 console.log("น้อยไปมาก:",points);
 
+/* -----------EP41-JavaScript Object------------ */
+let ep_41 ="--------------EP41---------------"
+console.log(ep_41)
 
+let product = {
+    name: "เมาส์",
+    price: 1500,
+    color:"black",
+    category:"computer",
+    size:"M",
+    displayProduct:function(){
+        return "ชื่อสินค้า = "+ this.name + " ราคา = "+ this.price +" หมวดหมู่ = "+this.category;
+    },
+    discount:function(){
+        return "ส่วนลด "+(this.price - 1000);
+    }
+};
 
+let item = ["เมาส์",1500,"black","computer","M"];
+
+//Object
+console.log("ชื่อสินค้า =",product.name);
+console.log("ราคา =",product.price);
+console.log("หมวดหมู่ =",product.category);
+
+//Arrey
+console.log("ชื่อสินค้า =",item[0]);
+console.log("ราคา =",item[1]);
+console.log("หมวดหมู่ =",item[3]);
+
+//เรียกใช้ metod
+console.log(product.displayProduct());
+console.log(product.discount());
+document.write(product.displayProduct());
+
+/* -----------EP42-การยืนยันด้วย Confirm------------ */
+let ep_42 ="--------------EP42---------------"
+console.log(ep_42)
+
+function deleteData(){
+    let result_42 = confirm("คุณต้องการลบข้อมูลหรือไม่!");
+    if(result_42){
+        alert("ลบข้อมูลเรียบร้อย");
+    }else{
+        console.log("ยกเลิกการลบข้อมูล");
+    }
+}
+
+/* -----------EP43-HTML DOM------------ */
+let ep_43 ="--------------EP43---------------"
+console.log(ep_43)
