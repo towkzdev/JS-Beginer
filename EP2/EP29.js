@@ -253,3 +253,23 @@ function deleteData(){
 /* -----------EP43-HTML DOM------------ */
 let ep_43 ="--------------EP43---------------"
 console.log(ep_43)
+
+/* -----------EP44-HTML DOM------------ */
+let ep_44 ="--------------EP44---------------"
+console.log(ep_44)
+
+let zxc = document.getElementById('demo'); //อ้างอิง querySelector('#demo')
+let zzc = document.querySelector('.myjs'); //อ้างอิง class ใส่ . 
+let xzc = document.querySelectorAll('p'); //อ้างอิงผ่าน tag
+
+console.log(zxc);
+console.log(zzc);
+console.log(xzc);
+
+let z_44 = 10;
+let x_44 = 20;
+function displayText(){
+    zxc.innerHTML = "<Strong>เรียน Java script เบื้องต้น</Strong>";
+    zxc.innerHTML = "แสดงข้อมูลในตัวแปร x= "+z_44+"และตัวแปร y="+x_44;//แสดงผล
+    zxc.innerHTML = `แสดงข้อมูลในตัวแปร x=${z_44}และตัวแปร y=${x_44}`;
+}
