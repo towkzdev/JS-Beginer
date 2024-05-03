@@ -273,3 +273,32 @@ function displayText(){
     zxc.innerHTML = "แสดงข้อมูลในตัวแปร x= "+z_44+"และตัวแปร y="+x_44;//แสดงผล
     zxc.innerHTML = `แสดงข้อมูลในตัวแปร x=${z_44}และตัวแปร y=${x_44}`;
 }
+
+/* -----------EP45-DOM Document------------ */
+let ep_45 ="--------------EP45---------------"
+console.log(ep_45)
+
+const titleEl = document.getElementById('title'); //อ้างอิง querySelector('#demo')
+const contentEl = document.querySelector('.content'); //อ้างอิง class ใส่ . 
+const allEl = document.querySelectorAll('p'); //อ้างอิงผ่าน tag
+
+function displayText_01(){
+    titleEl.style.color="red";
+    titleEl.style.backgroundColor="yellow";
+    titleEl.style.fontSize="60px";
+
+    contentEl.setAttribute('class','DevGrrr');
+}
+
+const box = document.querySelector('.light');
+function lightMode(){
+    box.setAttribute('class','light');
+}
+function darkMode(){
+    box.setAttribute('class','dark');
+}
+
+/* -----------EP46-DOM Nodes------------ */
+let ep_46 ="--------------EP46---------------"
+console.log(ep_46)
+
