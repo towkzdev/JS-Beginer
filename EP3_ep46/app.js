@@ -28,3 +28,25 @@ function deleteItem(){
 function replaceItem(){
     menu.replaceChild(newItem,itemB);
 }
+
+/* -----------EP47-DOM CSS (classList)------------ */
+let ep_47 ="--------------EP46---------------"
+console.log(ep_47)
+
+const box=document.getElementById('box');
+let status;
+
+function addDarkMode(){
+    box.classList.add("darkMode");
+}
+function removeDarkMode(){
+    box.classList.remove("darkMode");
+}
+function switchDarkMode(){
+    box.classList.toggle("darkMode");
+    if(status = box.classList.contains("darkMode")){
+        box.style.color="yellow";
+    }else{
+        box.style.color="red";
+    }
+}
