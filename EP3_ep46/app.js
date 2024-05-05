@@ -30,7 +30,7 @@ function replaceItem(){
 }
 
 /* -----------EP47-DOM CSS (classList)------------ */
-let ep_47 ="--------------EP46---------------"
+let ep_47 ="--------------EP47---------------"
 console.log(ep_47)
 
 const box=document.getElementById('box');
@@ -49,4 +49,27 @@ function switchDarkMode(){
     }else{
         box.style.color="red";
     }
+}
+
+/* -----------EP48-DOM Event (อีเวนต์)------------ */
+let ep_48 ="--------------EP48---------------"
+console.log(ep_48)
+
+function wellcome(){
+    alert("ยินดีต้อนรับเข้าสู่หน้าเว็บ");
+}
+
+function hightLight(obj){
+    obj.style.background="yellow";
+}
+
+function unhightLight(obj){
+    obj.style.background="black";
+}
+
+function getMenu(){
+    const menu = document.getElementById('menu');
+    const display = document.getElementById('display');
+    console.log(menu.value.toUpperCase());
+    display.innerText = menu.value;
 }

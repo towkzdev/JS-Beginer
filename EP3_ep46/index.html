@@ -6,7 +6,7 @@
     <title>EP46</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="wellcome()">
     <ul id="menu">
         <li id="item-1">A</li>
         <li id="item-2">B</li>
@@ -27,6 +27,19 @@
     <p>Hello Word</p>
     <p>Java Script</p>
     <p>Dev Grrrr</p>
+
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightLight(this)" onblur="unhightLight(this)">
+    <textarea name="" id="" cols="30" rows="10" onfocus="hightLight(this)" onblur="unhightLight(this)"></textarea>
+    
+    <label for="">เลือกเครื่องมือของคุณ</label>
+    <select name="" id="menu" onchange="getMenu()">
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Boostrap">Boostrap</option>
+    </select>
+    <p id="display"></p>
+    <a href="https://www.instagram.com/_towkz.grrrrrrrrr/" target="_blank" onmouseover="hightLight(this)" onmouseout="unhightLight(this)">IG</a>
+    <a href="https://www.facebook.com/satjaphon.tonnkla/" target="_blank" onmouseover="hightLight(this)" onmouseout="unhightLight(this)">Facebook</a>
     <script src="app.js"></script>
 </body>
 </html>
